@@ -1,3 +1,4 @@
+//o script usa SQL para criar as tabelas e os dados do placeholder-data.jsarquivo para preenchê-las depois de criadas.
 const { db } = require('@vercel/postgres');
 const {
   invoices,
